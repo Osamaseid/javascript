@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cadetblue;
+}
+.container{
+    padding: 50px;
+    margin: 50px;
+}
+.size{
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h{
+    padding: 10px;
+    page-break-inside: 10px;
+}
+.number{
+    margin: 40px;
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+form{
+    border: solid;
+    border-radius: 10px;
+    border-color: darkblue;
+}
+.button{
+    border: 2px solid #34efec;
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;  
+    width: 77px;  
+    margin: 15px;
+}

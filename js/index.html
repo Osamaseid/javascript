@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta data charset="utf-8">
+        <title>javascript</title>
+        <link rel="stylesheet"  href="style.css">
+        <script>
+            function prime(){
+               var i,o = 0,number;
+               number= Number(document.getElementById("N").value);
+   
+               for(i=2; i<= number/2; i++){
+                   if(number%i == 0){
+                       o = 1;
+                       break;
+   
+                   }
+               }
+               if(o == 0){
+                   widow.alert(number+" Is prime");
+   
+               }
+               else{
+                   window.alert(number+"Is not  prime");
+               }
+            }     
+           </script>
+       
+    </head>
+    <body>
+        <div class="container">
+        <br>
+        <h2 class="h">Hello, You Can Check Whether The Number Is Prime Or Not</h2>
+        <form>
+        <h2 class="size">Whether a number is prime or not</h2>
+        <hr color="darkblue">
+        <div class="number">
+        Enter The number:<input type="number" name="n" id="N"/>
+    </div>
+        </form>
+        
+        <center> <button class="button" onclick="prime()">CHECK</button></center>
+        </div> 
+      </body>
+</html>
